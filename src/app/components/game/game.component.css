@@ -1,0 +1,18 @@
+/* .button {
+justify-content: center
+} */
+
+.imagelayout {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .col-md-12{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
