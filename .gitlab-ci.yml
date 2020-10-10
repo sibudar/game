@@ -1,0 +1,16 @@
+pages:
+  image: 'node:latest'
+  stage: deploy
+  script:
+    - yarn
+    - yarn build --base-href /hackerthon/ --prod
+    - mkdir public
+    - cp -r ./dist/slidingGame/* ./public
+    - >-
+      find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec
+      gzip -f -k {} \;
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
