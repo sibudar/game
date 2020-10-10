@@ -14,3 +14,14 @@ margin-top: 10px;
    margin-top: 80px;
    background-color: #424242  
  }
+
+ .overlay{
+  opacity:0.8;
+  background-color: #3b007347;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  z-index:1000;
+}
