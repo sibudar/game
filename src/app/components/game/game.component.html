@@ -1,17 +1,8 @@
 
-
 <div class="container">
     <div class="row">
   <div class="col-md-12">
   <div class="game">
-    <h1>Click Play to Start the Game!</h1>
-  
-    <div class="imagelayout">
-      <img src="https://mybroadband.co.za/news/wp-content/uploads/2018/10/MTN-3.jpg" />
-    </div>
-  
-    <button class="button" (click)="shuffle()">Shuffle</button>
-  
     <div id="table" class="spaceing" style="display: table">
       <div id="row1" style="display: table-row">
         <div id="cell11" class="tile1" (click)="selectTile(1, 1)"></div>
@@ -38,6 +29,9 @@
         <div id="cell44" class="tile16" (click)="selectTile(4, 4)"></div>
       </div>
     </div>
+
+    <button class="btn btn-success" (click)="shuffle()">I Quit</button>
+
   </div> 
   </div>
     </div>

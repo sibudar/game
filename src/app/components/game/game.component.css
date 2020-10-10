@@ -1,13 +1,7 @@
-/* .button {
-justify-content: center
-} */
-
-.imagelayout {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
+.btn-success {
+margin-left: 150px;
+margin-top: 10px;
+}
   img {
     width: 100px;
     height: 100px;
@@ -16,3 +10,7 @@ justify-content: center
     padding-right: 0px !important;
     padding-left: 0px !important;
   }
+ .container{
+   margin-top: 80px;
+   background-color: #424242  
+ }
