@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~10.0.5",
     "@angular/platform-browser-dynamic": "~10.0.5",
     "@angular/router": "~10.0.5",
+    "@lmkhwana/consoletodiv": "0.0.8",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "ngx-toastr": "^13.0.1",
