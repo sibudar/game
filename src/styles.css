@@ -1,14 +1,14 @@
-.container {
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.game {
   background: black;
   margin: auto;
-  padding: 100px;
 }
 
-.spaceing {
+/* .spaceing {
   margin: auto;
   text-align: center;
   margin-top: 10px;
-}
+} */
 
 h1 {
   color: aliceblue;
@@ -38,7 +38,7 @@ h1 {
   width: 120px;
   height: 120px;
   border: 1px solid white;
-  background: url(https://i.ibb.co/hgjMby3/digi.png);
+  background: url(https://mybroadband.co.za/news/wp-content/uploads/2018/10/MTN-3.jpg);
   cursor: pointer;
 }
 
